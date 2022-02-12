@@ -1,0 +1,64 @@
+.main{
+    /* background-color: tomato; */
+    /* height:100%;
+    weight:100%; */
+    background-image: url("https://image.shutterstock.com/image-photo/close-shot-table-food-restaurant-1000w-210779125.jpg");
+    /* height:100%; */
+    /* width:1500px; */
+    background-repeat: no-repeat;
+
+}
+.main-nav{ 
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    /* grid-template-columns: 10rem 1fr  2fr 1fr 10rem; */
+    /* background-image: url("https://image.shutterstock.com/image-photo/close-shot-table-food-restaurant-600w-210779125.jpg"); 
+    background-repeat: no-repeat; */
+}
+.logo{
+    display: grid;
+    height: 10rem; 
+    /* background-color:white; */
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.logo h2{
+    font-size: 2.8rem;
+    color:black;
+}
+.menu-link{
+    grid-column: 3/4;
+} 
+.menu-link ul{
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-link ul li {
+    font-family: century;
+    font-size: 1.0rem;
+    font-weight: bold;
+} 
+.menu-link ul li a{
+    text-decoration: none;
+    color:black;
+}
+.input2{
+    position: absolute;
+    height: 20px;
+
+    width: 40%;
+    top: 30%;
+    left: 10%;
+    
+}
+.search{
+    position: absolute;
+    height: 25px;
+    /* width: 40%; */
+    top: 30%;
+    /* left: 10%; */
+}
